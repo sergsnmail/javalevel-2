@@ -1,6 +1,6 @@
 package com.sergsnmail.lesson2.myexceptions;
 
-public class MyArraySizeException extends Exception {
+public class MyArraySizeException extends RuntimeException {
     private int size;
 
     public MyArraySizeException(int size) {

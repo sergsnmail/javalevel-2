@@ -1,6 +1,6 @@
 package com.sergsnmail.lesson2.myexceptions;
 
-public class MyArrayDataException extends Exception {
+public class MyArrayDataException extends RuntimeException {
     private String value;
     private int i,j;
 
